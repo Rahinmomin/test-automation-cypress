@@ -14,6 +14,6 @@ describe('This is my Second Test', function(){
         cy.get('[src="https://rahulshettyacademy.com/seleniumPractise/images/bag.png"]').click()
         cy.contains('PROCEED TO CHECKOUT').click()
         cy.contains('Place Order').click()
-
+        
     }})})
     })

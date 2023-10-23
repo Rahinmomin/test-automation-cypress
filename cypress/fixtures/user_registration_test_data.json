@@ -1,0 +1,9 @@
+{
+  "Name": "John",
+  "Password": "Test@12",
+  "Email": "hello@cypress.io",
+  "Gender":"Male",
+  "DateofBirth":"2020-01-01",
+  "productName":["Nokia Edge","Blackberry"],
+  "body": "User registartion data"
+}

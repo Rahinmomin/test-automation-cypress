@@ -20,6 +20,14 @@ Cypress.Commands.add("ProductName", (Productdetail) => {
 
 })
 })
+
+Cypress.Commands.add("get_text", (locator) => {
+  cy.get(locator).then(function(element) {
+    element.text()
+  })
+})
+
+
 //
 //
 // -- This is a child command --
